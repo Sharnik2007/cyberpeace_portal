@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #f8fafc;       /* Ultra-clean slate gray base canvas */
+  --color-bg-card: #ffffff;       /* Pure white structural containers */
+  --color-border-clean: #e2e8f0;  /* Subtle divider lines */
+  
+  --color-text-main: #0f172a;     /* Sharp deep slate prose */
+  --color-text-muted: #64748b;    /* Secondary layout text */
+  
+  --color-brand-blue: #3b82f6;    /* Cybersecurity main action line */
+  --color-brand-purple: #7c3aed;  /* ML Weights visualization line */
+  --color-brand-orange: #ea580c;  /* Heuristic indicators code */
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
