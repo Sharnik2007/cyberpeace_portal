@@ -1,11 +1,30 @@
-node_modules/
-frontend/node_modules/
-venv/
+# node_modules/
+# frontend/node_modules/
+# venv/
+# __pycache__/
+# app/__pycache__/
+# tests/__pycache__/
+# .pytest_cache/
+# *.pyc
+# .env
+# dist/
+# build/
+# Python
 __pycache__/
-app/__pycache__/
-tests/__pycache__/
-.pytest_cache/
 *.pyc
+venv/
+.venv/
+*.pkl
+*.joblib
+
+# Node / React
+node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+
+# Environment & IDE
 .env
-dist/
-build/
+.DS_Store
+.vscode/
+.idea/
